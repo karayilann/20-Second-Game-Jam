@@ -8,7 +8,7 @@ public class PushButton : MonoBehaviour
     {
         if (w.gameObject.tag == "W")
         {
-            if (Input.GetKey(KeyCode.W))
+            if (Input.GetKeyUp(KeyCode.W))
             { Destroy(w.gameObject); }
         }
     }
@@ -18,7 +18,7 @@ public class PushButton : MonoBehaviour
 
         if (w.gameObject.tag == "W")
         {
-            if (Input.GetKey(KeyCode.W))
+            if (Input.GetKeyUp(KeyCode.W))
             { Destroy(w.gameObject); }
         }
     }
