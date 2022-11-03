@@ -12,4 +12,15 @@ public class PushButton : MonoBehaviour
             { Destroy(w.gameObject); }
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D w)
+    {
+
+        if (w.gameObject.tag == "W")
+        {
+            if (Input.GetKey(KeyCode.W))
+            { Destroy(w.gameObject); }
+        }
+    }
+
 }

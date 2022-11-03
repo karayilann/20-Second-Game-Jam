@@ -13,6 +13,5 @@ public class ClickButton : MonoBehaviour
     private void OnMouseDown()
     {
         Destroy(gameObject);
-        Debug.Log("Destroyed");
     }
 }
