@@ -3,7 +3,9 @@ guid: d93726fe219ec4015adc1b572881d25e
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - ClickBlock: {fileID: 1664285320183405169, guid: 5bf1e3965f77d4381bd2b4148806a43a, type: 3}
+  - PushBlocks: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
