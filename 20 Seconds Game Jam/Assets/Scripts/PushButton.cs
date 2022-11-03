@@ -8,7 +8,7 @@ public class PushButton : MonoBehaviour
     {
         if (w.gameObject.tag == "W")
         {
-            Destroy(w);
+            Destroy(w.gameObject);
         }
     }
 }
