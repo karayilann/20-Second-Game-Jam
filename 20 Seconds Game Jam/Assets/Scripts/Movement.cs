@@ -8,6 +8,8 @@ public class Movement : MonoBehaviour
     Rigidbody2D rb2D;
     [SerializeField] float speed;
     float notUsing = 0f;
+    [SerializeField] Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +22,11 @@ public class Movement : MonoBehaviour
     void FixedUpdate()
     {
 
+
+
         float Horizontal = Input.GetAxis("Horizontal");
+
+        animator.SetFloat("Horizontal",Horizontal);
 
         Vector3 mover = new Vector3(Horizontal, notUsing, notUsing) * Time.deltaTime;
         rb2D.velocity = mover * speed ; 
