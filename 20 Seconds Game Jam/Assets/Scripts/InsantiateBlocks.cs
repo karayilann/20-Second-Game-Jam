@@ -20,7 +20,7 @@ public class InsantiateBlocks : MonoBehaviour
     {
         if(Time.time > TimeClickBlock)
         {
-          Instantiate(ClickBlock, new Vector3(Random.Range(-8.509f, 9.94f), 5.85f, 0), Quaternion.Euler(0, 0, 0));
+          Instantiate(ClickBlock, new Vector3(Random.Range(-6.59f, 6.6f), 4.984f, 0), Quaternion.Euler(0, 0, 0));
             TimeClickBlock = Time.time + addTime;
          
         }
@@ -28,7 +28,7 @@ public class InsantiateBlocks : MonoBehaviour
         if(Time.time > TimePushBlocks)
         {
 
-            Instantiate(PushBlocks, new Vector3(Random.Range(-8.509f, 9.94f), 5.85f, 0), Quaternion.Euler(0, 0, 0));
+            Instantiate(PushBlocks, new Vector3(Random.Range(-6.59f, 6.6f), 4.984f, 0), Quaternion.Euler(0, 0, 0));
             TimePushBlocks = Time.time + addTime;
         }
     }
