@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class EndGame : MonoBehaviour
@@ -8,12 +9,12 @@ public class EndGame : MonoBehaviour
     {
         if(w.gameObject.tag == "W")
         {
-            Debug.Log("w");
+            SceneManager.LoadScene("EndGame");
         }
 
         if (w.gameObject.tag == "Click")
         {
-            Debug.Log("Click");
+            SceneManager.LoadScene("EndGame");
         }
     }
 }

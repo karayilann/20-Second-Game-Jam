@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Start Screen.unity
+    guid: 83af7493b8b5f42fd8e00af336cf072b
+  - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/PlayerCheck.unity
-    guid: ac48c38da2f84884b9fa1b566ee10edd
+    path: Assets/Scenes/EndGame.unity
+    guid: 5c6b1115b2bda487a9754577443f38c0
   - enabled: 1
-    path: Assets/Scenes/PushButton.unity
-    guid: 365f0584e79794234a6e11059395a3dc
+    path: Assets/Scenes/DidIt.unity
+    guid: cb79e8b6ea7984cf8a4f0a4dcc7a7ce8
   m_configObjects: {}
